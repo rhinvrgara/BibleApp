@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reading Genesis</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap_v3/css/bootstrap.css">
+	<style type="text/css">
+	  body {
+	  background-color:#b0c4de;
+	  }
+	</style>
+</head>
+<body>
+	<header></header>
+	<div class="container">
+		<div class="rows">
+			<div class="col-md-5">
+				<br>
+				<div class="tabpanel">
+					<ul class="nav nav-tabs" role="tablist">
+						<li role="presentation" id="nav"><a href="index.html" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+    					<li role="presentation"  class="active" id="nav"><a href="old.html" aria-controls="profile" role="tab" data-toggle="tab">Old Testament</a></li>
+    					<li role="presentation" id="nav"><a href="new.html" aria-controls="messages" role="tab" data-toggle="tab">New Testament</a></li>						
+					</ul>
+				</div>
+				<table class="table table-striped">
+					<br>
+					<tbody>
+						<tr>
+				            <td>1</td>
+				            <td>Genesis</td>
+						  <td id="button"><a href="read_gen.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_gen.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_gen.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>2</td>
+				            <td>Exodus</td>
+						  <td id="button"><a href="read_exo.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_exo.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_exo.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>3</td>
+				            <td>Leviticus</td>
+						  <td id="button"><a href="read_lev.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_lev.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_lev.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>4</td>
+				            <td>Numbers</td>
+						  <td id="button"><a href="read_num.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_num.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_num.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>5</td>
+				            <td>Deuteronomy</td>
+						  <td id="button"><a href="read_deu.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_deu.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_deu.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>6</td>
+				            <td>Joshua</td>
+						  <td id="button"><a href="read_jos.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_jos.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_jos.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>7</td>
+				            <td>Judges</td>
+						  <td id="button"><a href="read_judg.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_judg.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_judg.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+		  				<tr>
+				            <td>8</td>
+				            <td>Ruth</td>
+						  <td id="button"><a href="read_ruth.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_ruth.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_ruth.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>9</td>
+				            <td>I Samuel</td>
+						  <td id="button"><a href="read_Isam.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_Isam.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_Isam.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>10</td>
+				            <td>II Samuel</td>
+						  <td id="button"><a href="read_IIsam.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_IIsam.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_IIsam.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>11</td>
+				            <td>I King</td>
+						  <td id="button"><a href="read_Iking.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_Iking.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_Iking.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>12</td>
+				            <td>II King</td>
+						  <td id="button"><a href="read_IIking.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_IIking.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_IIking.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>13</td>
+				            <td>I Chronicles</td>
+						  <td id="button"><a href="read_Ichro.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_Ichro.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_Ichro.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>14</td>
+				            <td>II Chronicles</td>
+						  <td id="button"><a href="read_IIchro.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_IIchro.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_IIchro.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>15</td>
+				            <td>Ezra</td>
+						  <td id="button"><a href="read_ezra.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_ezra.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_ezra.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>16</td>
+				            <td>Nehemiah</td>
+						  <td id="button"><a href="read_nehem.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_nehem.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_nehem.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>17</td>
+				            <td>Esther</td>
+						  <td id="button"><a href="read_est.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_est.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_est.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>18</td>
+				            <td>Job</td>
+						  <td id="button"><a href="read_job.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_job.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_job.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>19</td>
+				            <td>Psalms</td>
+						  <td id="button"><a href="read_psa.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_psa.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_psa.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>20</td>
+				            <td>Proverbs</td>
+						  <td id="button"><a href="read_prov.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_prov.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_prov.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>21</td>
+				            <td>Ecclesiastes</td>
+						  <td id="button"><a href="read_ecc.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_ecc.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_ecc.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>22</td>
+				            <td>Song of Songs</td>
+						  <td id="button"><a href="read_song.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_song.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_song.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>23</td>
+				            <td>Isaiah</td>
+						  <td id="button"><a href="read_isai.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_isai.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_isai.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>24</td>
+				            <td>Jeremiah</td>
+						  <td id="button"><a href="read_jere.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_jere.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_jere.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>25</td>
+				            <td>Lamentation</td>
+						  <td id="button"><a href="read_lame.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_lame.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_lame.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>26</td>
+				            <td>Ezekiel</td>
+						  <td id="button"><a href="read_eze.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_eze.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_eze.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>27</td>
+				            <td>Daniel</td>
+						  <td id="button"><a href="read_dan.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_dan.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_dan.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>28</td>
+				            <td>Hosea</td>
+						  <td id="button"><a href="read_hos.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_hos.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_hos.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>29</td>
+				            <td>Joel</td>
+						  <td id="button"><a href="read_joel.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_joel.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_joel.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>30</td>
+				            <td>Amos</td>
+						  <td id="button"><a href="read_amos.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_amos.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_amos.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>31</td>
+				            <td>Obadiah</td>
+						  <td id="button"><a href="read_obad.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_obad.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_obad.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>32</td>
+				            <td>Jonah</td>
+						  <td id="button"><a href="read_jon.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_jon.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_jon.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>33</td>
+				            <td>Micah</td>
+						  <td id="button"><a href="read_mic.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_mic.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_mic.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>34</td>
+				            <td>Nahum</td>
+						  <td id="button"><a href="read_nahum.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_nahum.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_nahum.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>35</td>
+				            <td>Habakkuk</td>
+						  <td id="button"><a href="read_hab.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_hab.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_hab.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>36</td>
+				            <td>Zephaniah</td>
+						  <td id="button"><a href="read_zep.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_zep.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_zep.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>37</td>
+				            <td>Haggai</td>
+						  <td id="button"><a href="read_hag.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_hag.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_hag.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>38</td>
+				            <td>Zechariah</td>
+						  <td id="button"><a href="read_zec.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_zec.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_zec.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+				        <tr>
+				            <td>39</td>
+				            <td>Malachi</td>
+						  <td id="button"><a href="read_mal.html"><button type="button" class="btn btn-sm btn-success">Read</button><a/></a></td>
+						  <td id="button"><a href="info_mal.html"><button type="button" class="btn btn-sm btn-info">Information</button><a/></a></td>
+						  <td id="button"><a href="watch_mal.html"><button type="button" class="btn btn-sm btn-primary">Watch</button><a/></a></td>
+				        </tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="col-md-7">
+				<h1 id="ck">Genesis</h1>
+				<h2>7 Day creation of God</h2>
+				<h3>Chapter 1 - Chapter 2:7</h3>
+			  <p id="bodyContent">Gen 1:1: In the beginning God created the heaven and the earth.<br>Gen 1:2: And the earth was without form, and void; and darkness was upon the face of the deep.  And the Spirit of God moved upon the face of the waters.<br>Gen 1:3: And God said, Let there be light: and there was light.<br>Gen 1:4: And God saw the light, that it was good: and God divided the light from the darkness.<br>Gen 1:5: And God called the light Day, and the darkness he called Night.  And the evening and the morning were the first day.<br>Gen 1:6: And God said, Let there be a firmament in the midst of the waters, and let it divide the waters from the waters.<br>Gen 1:7: And God made the firmament, and divided the waters which were under the firmament from the waters which were above the firmament: and it was so.<br>Gen 1:8: And God called the firmament Heaven.  And the evening and the morning were the second day.<br>Gen 1:9: And God said, Let the waters under the heaven be gathered together unto one place, and let the dry land appear: and it was so.<br>Gen 1:10: And God called the dry land Earth; and the gathering together of the waters called he Seas: and God saw that it was good.<br>Gen 1:11: And God said, Let the earth bring forth grass, the herb yielding seed, and the fruit tree yielding fruit after his kind, whose seed is in itself, upon the earth: and it was so.<br>Gen 1:12: And the earth brought forth grass, and herb yielding seed after his kind, and the tree yielding fruit, whose seed was in itself, after his kind: and God saw that it was good. <br>Gen 1:13: And the evening and the morning were the third day.<br>Gen 1:14: And God said, Let there be lights in the firmament of the heaven to divide the day from the night; and let them be for signs, and for seasons, and for days, and years: <br>Gen 1:15: And let them be for lights in the firmament of the heaven to give light upon the earth: and it was so. <br>Gen 1:16: And God made two great lights; the greater light to rule the day, and the lesser light to rule the night: he made the stars also.<br>Gen 1:17: And God set them in the<br>firmament of the heaven to give light upon the earth,<br>Gen 1:18: And to rule over the day<br>and over the night, and to divide the light from the darkness: and God saw that it was good.<br>Gen 1:19: And the evening and the morning were the fourth day.<br>Gen 1:20: And God said, Let the waters bring forth abundantly the moving creature that hath life, and fowl that may fly above the earth in the open firmament of heaven.<br>Gen 1:21: And God created great whales, and every living creature that moveth, which the waters brought forth abundantly, after their kind, and every winged fowl after his kind: and God saw that it was good.<br>Gen 1:22: And God blessed them, saying, Be fruitful, and multiply, and fill the waters in the seas, and let fowl multiply in the earth.<br>Gen 1:23: And the evening and the morning were the fifth day.<br>Gen 1:24: And God said, Let the earth bring forth the living creature after his kind, cattle, and creeping thing, and beast of the earth after his kind: and it was so.<br>Gen 1:25: And God made the beast of the earth after his kind, and cattle after their kind, and every thing that creepeth upon the earth after his kind: and God saw that it was good.<br>Gen 1:26: And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth.<br>Gen 1:27: So God created man in his own image, in the image of God created he him; male and female created he them.<br>Gen 1:28: And God blessed them, and God said unto them, Be fruitful, and multiply, and replenish the earth, and subdue it: and have dominion over the fish of the sea, and over the fowl of the air, and over every living thing that moveth upon the earth.<br>Gen 1:29: And God said, Behold, I have given you every herb bearing seed, which is upon the face of all the earth, and every tree, in the which is the fruit of a tree yielding seed; to you it shall be for meat.<br>Gen 1:30: And to every beast of the earth, and to every fowl of the air, and to every thing that creepeth upon the earth, wherein there is life, I have given every green herb for meat: and it was so.<br>Gen 1:31: And God saw every thing that he had made, and, behold, it was very good.  And the evening and the morning were the sixth day.Gen 2:1: Thus the heavens and the earth were finished, and all the host of them.<br>Gen 2:2: And on the seventh day God ended his work which he had made; and he rested on the seventh day from all his work which he had made.<br>Gen 2:3: And God blessed the seventh day, and sanctified it: because that in it he had rested from all his work which God created and made.<br>Gen 2:4: These are the generations of the heavens and of the earth when they were created, in the day that the LORD God made the earth and the heavens,<br>Gen 2:5: And every plant of the field before it was in the earth, and every herb of the field before it grew: for the LORD God had not caused it to rain upon the earth, and there was not a man to till the ground.<br>Gen 2:6: But there went up a mist from the earth, and watered the whole face of the ground. <br>Gen 2:7: And the LORD God formed man of the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.</p>		
+			</div>
+		</div>
+	</div>
+	<hr />
+		<footer><center><p>All Rights Reserved<br>Rhina Vergara<br>
+			  <br>Associate in Computer Technology<br>La Verdad Christian College<br>WEB APPLICATION DEVELOPMENT</p></center></footer>
+	<hr />
+</body>
+</html>
